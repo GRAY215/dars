@@ -1,0 +1,195 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.containet {
+    margin: 0 auto;
+    padding: 0 144px;
+    max-width: 1440px;
+}
+
+
+.top__part {
+    display: flex;
+    gap: 242px;
+    padding-top: 40px;
+    text-align: center;
+    align-items: center;
+    width: 1252px;
+    flex-shrink: 0;
+    padding-left: 144px;
+    padding-bottom: 40px;
+}
+
+.part__text {
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 62px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+.nav__home {
+    color: #086CF9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+.nav__Singin {
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #086CF9;
+}
+
+.menu {
+    background-image: url(./images/pexels-ivan-samkov-5676744\ 1.svg);
+    width: 1440px;
+    height: 739px;
+    flex-shrink: 0;
+    text-align: center;
+    position: relative;
+}
+
+.menu__text {
+    color: #FFF;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu__less {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    padding-left: 235px;
+    padding-right: 338px;
+}
+
+
+.menu__button {
+    display: inline-flex;
+    padding: 16px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #086CF9;
+}
+
+.followers {
+    display: flex;
+    gap: 155px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 11px 35px 0px rgba(0, 0, 0, 0.08);
+    padding: 56px 88px 56px 88px;
+    position: absolute;
+    left: 144px;
+    top: 642px;
+}
+
+
+.followers__icon1 {
+    display: flex;
+}
+
+.texts__nummer {
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.texts__online {
+    color: #086CF9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+.sites {
+    margin-top: 223px;
+    display: flex;
+    gap: 68px;
+}
+
+.sites__info {
+    color: #222;
+    width: 519px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sites__loinfo {
+    color: #555;
+    width: 478px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+}
+
+.sites__sit {
+    width: 489px;
+    color: #333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.sites__button {
+    border-radius: 4px;
+    background: #086CF9;
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
